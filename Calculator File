@@ -1,0 +1,24 @@
+a=int(input("Number One:  "))
+b=int(input("Number Two:  "))
+print(f"{a}+{b}={a+b}")
+print(f"{a}-{b}={a-b}")
+print(f"{a}*{b}={a*b}")
+print(f"{a}/{b}={a/b}")
+vazn = float(input("Vaznet Cheghadare? (KG)  "))
+ghad = int(input("Ghadet Cheghadare? (CM)  "))
+ghad = ghad/100
+bmi = vazn/(ghad*ghad)
+print (bmi)
+if bmi<18.5:
+    print("Kambood Vazn")
+elif bmi<25:
+    print("Normal")
+elif bmi<30:
+    print("Ezafe Vazn")
+else:
+    print("Kheili Chagh")
+
+c = input("What Is Your Name?")
+d = input("How Old Are You?")
+d = int(d)
+print(f"Your Name is {c}, You Will be {d+1} Next Year, Thanks For Using Our Tool! ")
