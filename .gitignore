@@ -1,22 +1,23 @@
+
 a=int(input("Number One:  "))
 b=int(input("Number Two:  "))
 print(f"{a}+{b}={a+b}")
 print(f"{a}-{b}={a-b}")
 print(f"{a}*{b}={a*b}")
 print(f"{a}/{b}={a/b}")
-vazn = float(input("Vaznet Cheghadare? (KG)  "))
-ghad = int(input("Ghadet Cheghadare? (CM)  "))
-ghad = ghad/100
-bmi = vazn/(ghad*ghad)
+weight = float(input("How Much Weight Do You Have? (KG)  "))
+tall = int(input("How Tall Are You? (CM)  "))
+tall = tall/100
+bmi = weight/(tall*tall)
 print (bmi)
 if bmi<18.5:
-    print("Kambood Vazn")
+    print("Need More Weight")
 elif bmi<25:
     print("Normal")
 elif bmi<30:
-    print("Ezafe Vazn")
+    print("A Little Fat")
 else:
-    print("Kheili Chagh")
+    print("Fat")
 
 c = input("What Is Your Name?")
 d = input("How Old Are You?")
